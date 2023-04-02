@@ -35,17 +35,17 @@ Number(quantity)
 console.log(typeof Number(quantity))
 // Write a JavaScript program that takes in different datatypes and prints out whether they are a:
   const rain = "true";
-  console.log("true");
+  console.log(rain);
   const a = null;
-  console.log("null")
+  console.log(a)
   const car = undefined;
-  console.log("underfined")
+  console.log(car)
   const dog = 56;
-  console.log("56");
+  console.log(dog);
   NaN === NaN; false;
   console.log("NaN")
   const color = "yellow";
-  console.log("yellow")
+  console.log(color)
   
 
   
