@@ -5,9 +5,10 @@
 //          PART ONE
 // ***************************
 // Write a JavaScript program to display the current day and time, start with:
-console.log(new Date)
+
 
 const displayDate = () => {
+
   const currentDate = new Date()
 
   document.getElementById("display-element").innerHTML = currentDate;
@@ -16,35 +17,76 @@ const displayDate = () => {
 
 // Write a JavaScript program to convert a number to a string.
 
+const numberToString = (inputNum) => {
 
+  console.log("my favorite number is: " + inputNum.toString())
+
+}
+numberToString(7)
 
 // Write a JavaScript program to convert a string to the number.
 
+const quantity = "12";
 
+console.log(typeof quantity)
 
+Number(quantity)
+
+console.log(typeof Number(quantity))
 // Write a JavaScript program that takes in different datatypes and prints out whether they are a:
-  // * Boolean
-  // * Null
-  // * Undefined
-  // * Number
-  // * NaN
-  // * String
+  const rain = "true";
+  console.log("true");
+  const a = null;
+  console.log("null")
+  const car = undefined;
+  console.log("underfined")
+  const dog = 56;
+  console.log("56");
+  NaN === NaN; false;
+  console.log("NaN")
+  const color = "yellow";
+  console.log("yellow")
   
 
   
 // Write a JavaScript program that adds 2 numbers together.
 
+const num1 = 5;
+const num2 = 3;
 
+const sum = num1 + num2;
+
+console.log('The sum of ' + num1 + ' and ' + num2 + ' is ' + sum);
 
 // Write a JavaScript program that runs only when 2 things are true.
 
+let condition;
+
+if (1 > 0 && 2 > 1) {
+  condition = "Both conditions are true";
+}
+
+console.log("Both conditions are true");
 
 
 // Write a JavaScript program that runs when 1 of 2 things are true.
 
+const balance = 600;
+const purse = 300;
 
+if (purse <= balance) {
+console.log("You have enough money to buy the purse");
+} else {
+console.log("You don not have enough money to buy the purse")
+}
 
-// Write a JavaScript program that runs when both things are not true.  
+// Write a JavaScript program that runs when both things are not true. 
+
+if (!1 > 0 && 2 > 1) {
+  condition = "Both conditions are not true";
+}
+
+console.log("Both conditions are not true");
 
 // ***************************
 //         PART TWO
